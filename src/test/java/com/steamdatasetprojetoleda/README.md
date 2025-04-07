@@ -1,4 +1,4 @@
-Coloque o arquivo games.cvs nesse repositorio.
+Coloque o arquivo games.cvs nesse repositorio!! 
 
 O arquivo "games.csv" deve ser adicionado ao repósitorio "\src\test\java\com\steamdatasetprojetoleda".
 
