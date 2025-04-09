@@ -20,8 +20,8 @@ import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVPrinter;
 import org.apache.commons.csv.CSVRecord;
 
-public class CSVTransformer {
-    private static final Logger LOGGER = Logger.getLogger(CSVTransformer.class.getName());
+public class TransformationsCSV {
+    private static final Logger LOGGER = Logger.getLogger(TransformationsCSV.class.getName());
 
     private static String formatReleaseDate(String dateString) {
         DateTimeFormatter inputFormat;
@@ -68,6 +68,11 @@ public class CSVTransformer {
 
     public static void filterLinuxCompatibleGames(Path filePath) {
         processCSV(filePath, "games_linux.csv", "Metacritic score", "true");
+        /*
+        usamos a coluna "Metacritic score" pois ao analisar o arquivo games.csv, 
+        notamos uma coluna a "mais" que está preenchida de zeros, por conta disso, 
+        utilizamos a coluna sequente a Linux para que, assim, o projeto seja executado da forma correta.
+        */
     }
 
     public static void filterPortugueseSupportedGames(Path filePath) {
@@ -125,10 +130,12 @@ public class CSVTransformer {
         LOGGER.info("Iniciando transformação de datas...");
         transformReleaseDates(gamesPath);
         LOGGER.info("Transformação de datas concluída.");
-        
+        System.out.println("");
+
         LOGGER.info("Filtrando jogos compatíveis com Linux...");
         filterLinuxCompatibleGames(transformedGamesPath);
         LOGGER.info("Filtro de jogos Linux concluído.");
+        System.out.println("");
         
         LOGGER.info("Filtrando jogos com suporte ao português...");
         filterPortugueseSupportedGames(transformedGamesPath);
