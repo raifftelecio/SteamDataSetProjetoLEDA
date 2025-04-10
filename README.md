@@ -1,4 +1,5 @@
 O arquivo "games.csv" deve ser adicionado ao repositório "\src\test\java\com\steamdatasetprojetoleda".
+
 O Data Set "games.csv" foi baixado através do site Kaggle --> https://www.kaggle.com/datasets/fronkongames/steam-games-dataset
 
 A única classe que é necessario executar é a classe "Main.java", que está localizada no repositório:
