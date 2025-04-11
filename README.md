@@ -1,7 +1,7 @@
 STEAM GAMES DATA SET:
 -------------------------------------------------------------------------------------------
 
--Primeira parte do projeto, onde visa realizar transformações no data set da seteam.
+-Primeira parte do projeto, onde visa realizar transformações no data set da steam.
 
 -Para que o código seja executado da maneira correta, siga as instruções:
 
