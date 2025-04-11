@@ -17,5 +17,5 @@ STEAM GAMES DATA SET:
 
 *Grupo composto por: 
 -Raiff Ferreira Telecio
--Guilherme Ribeiro Lebig 
+-Guilherme Ribeiro Liebig 
 -Vinicius Lopes de Morais
