@@ -16,6 +16,6 @@ STEAM GAMES DATA SET:
 *Utilizamos o Apache Maven para manipulação dos arquivos csv (recomenda-se que o maven esteja baixado na maquina que será executada o código).
 
 *Grupo composto por: 
--Raiff Ferreira Telecio
--Guilherme Ribeiro Liebig 
--Vinicius Lopes de Morais
+-Raiff Ferreira Telecio.
+-Guilherme Ribeiro Liebig. 
+-Vinicius Lopes de Morais.
