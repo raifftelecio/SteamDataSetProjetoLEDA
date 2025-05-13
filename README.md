@@ -4,6 +4,7 @@ STEAM GAMES DATA SET:
 -Primeira parte do projeto, onde visa realizar transformações no data set da steam.
 
 -Para que o código seja executado da maneira correta, siga as instruções:
+
 1-)Clonar o respositório do projeto 
 
 2-)O Data Set "games.csv" deve ser baixado através do site Kaggle --> https://www.kaggle.com/datasets/fronkongames/steam-games-dataset
