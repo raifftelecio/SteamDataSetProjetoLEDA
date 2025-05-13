@@ -5,7 +5,7 @@ STEAM GAMES DATA SET:
 
 -Segunda parte do projeto: aplicação dos algoritmos de ordenações em determinados campos e relatório com análise de resultados.
 
-__________________________________________________________________________________________
+-------------------------------------------------------------------------------------------
 *Para que o código seja executado da maneira correta,* **SIGA AS INSTRUÇÕES:**
 -------------------------------------------------------------------------------------------
 
