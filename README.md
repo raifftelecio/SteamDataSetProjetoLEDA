@@ -19,7 +19,7 @@ Para que o código seja executado da maneira correta, **SIGA AS INSTRUÇÕES:**
 
 --> **Etapas para testar o código:**
 
-  1-)Clonar o respositório do projeto "git clone https://github.com/raifftelecio/SteamDataSetProjetoLEDA.git" OU baixe como .zip e descompacte.
+  1-)Clonar o respositório do projeto "git clone https://github.com/raifftelecio/SteamDataSetProjetoLEDA.git" (recomendado) OU baixe como .zip e descompacte.
 
   2-)O Data Set "games.csv" deve ser baixado através do site Kaggle --> https://www.kaggle.com/datasets/fronkongames/steam-games-dataset
 
