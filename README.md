@@ -6,9 +6,9 @@ STEAM GAMES DATA SET:
 -Segunda parte do projeto: aplicação dos algoritmos de ordenações em determinados campos e relatório com análise de resultados.
 
 __________________________________________________________________________________________
--Para que o código seja executado da maneira correta, SIGA AS INSTRUÇÕES:
+*Para que o código seja executado da maneira correta,* **SIGA AS INSTRUÇÕES:**
 
---> Pré-Requisitos:
+--> **Pré-Requisitos:**
 
   1-)Apache Maven versão 3.8.7 ou superior;
 
@@ -16,7 +16,7 @@ ________________________________________________________________________________
 
   3-)No final, ter instalado o Java (JDK), o Apache Maven e o Visual Studio Code
 
---> Etapas para testar o código:
+--> **Etapas para testar o código:**
 
   1-)Clonar o respositório do projeto "git clone https://github.com/raifftelecio/SteamDataSetProjetoLEDA.git" OU baixe como .zip e descompacte.
 
@@ -28,7 +28,8 @@ ________________________________________________________________________________
 "\src\main\java\com\steamdatasetprojetoleda".
 
 ---------------------------------------------------------------------------------------------
---> Grupo composto por: 
+--> **Grupo composto por:**
+
   -Raiff Ferreira Telecio.
   
   -Guilherme Ribeiro Liebig. 
