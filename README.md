@@ -28,6 +28,8 @@ ________________________________________________________________________________
 "\src\main\java\com\steamdatasetprojetoleda".
 
 ---------------------------------------------------------------------------------------------
+**Link do relatório**(Entrar com o e-mail da universidade): https://docs.google.com/document/d/12Jtr2FbbyU1dq0pgEITHX8l9ZBjeF2ATDYGZUOLeHI4/edit?usp=sharing
+---------------------------------------------------------------------------------------------
 --> **Grupo composto por:**
 
   -Raiff Ferreira Telecio.
