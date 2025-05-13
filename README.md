@@ -6,9 +6,10 @@ STEAM GAMES DATA SET:
 -Segunda parte do projeto: aplicação dos algoritmos de ordenações em determinados campos e relatório com análise de resultados.
 
 __________________________________________________________________________________________
--Para que o código seja executado da maneira correta, siga as instruções:
+-Para que o código seja executado da maneira correta, SIGA AS INSTRUÇÕES:
 
 --> Pré-Requisitos:
+
   1-)Apache Maven versão 3.8.7 ou superior;
 
   2-)Java versão 21.0.6 ou superior.
@@ -16,7 +17,8 @@ ________________________________________________________________________________
   3-)No final, ter instalado o Java (JDK), o Apache Maven e o Visual Studio Code
 
 --> Etapas para testar o código:
-  1-)Clonar o respositório do projeto "git clone https://github.com/raifftelecio/SteamDataSetProjetoLEDA.git"
+
+  1-)Clonar o respositório do projeto "git clone https://github.com/raifftelecio/SteamDataSetProjetoLEDA.git" OU baixe como .zip e descompacte.
 
   2-)O Data Set "games.csv" deve ser baixado através do site Kaggle --> https://www.kaggle.com/datasets/fronkongames/steam-games-dataset
 
