@@ -1,8 +1,10 @@
 STEAM GAMES DATA SET:
 -------------------------------------------------------------------------------------------
 
--Primeira parte do projeto, onde visa realizar transformações no data set da steam.
+-Primeira parte do projeto: visa realizar transformações no data set da steam.
+-Segunda parte do projeto: aplicação dos algoritmos de ordenações em determinados campos.
 
+__________________________________________________________________________________________
 -Para que o código seja executado da maneira correta, siga as instruções:
 
 1-)Clonar o respositório do projeto 
