@@ -1,4 +1,4 @@
-package com.steamdatasetprojetoleda;
+package com.steamdatasetprojetoleda.transformações;
 
 import java.io.File;
 import java.io.FileReader;
