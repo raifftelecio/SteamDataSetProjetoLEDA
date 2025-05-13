@@ -7,6 +7,7 @@ STEAM GAMES DATA SET:
 
 __________________________________________________________________________________________
 *Para que o código seja executado da maneira correta,* **SIGA AS INSTRUÇÕES:**
+-------------------------------------------------------------------------------------------
 
 --> **Pré-Requisitos:**
 
@@ -32,8 +33,8 @@ ________________________________________________________________________________
 **Link do relatório**(Entrar com o e-mail da universidade): https://docs.google.com/document/d/12Jtr2FbbyU1dq0pgEITHX8l9ZBjeF2ATDYGZUOLeHI4/edit?usp=sharing
 
 ---------------------------------------------------------------------------------------------
---> **Grupo composto por:**
-
+Participantes do Grupo:
+--------------------------------------------------------------------------------------------
   -Raiff Ferreira Telecio.
   
   -Guilherme Ribeiro Liebig. 
