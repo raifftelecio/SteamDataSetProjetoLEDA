@@ -21,7 +21,7 @@ public class OrdenacaoDate {
         System.out.println("Executando ordenações no campo Release Date (caso médio):\n");
     
         // Selection Sort
-        /*System.out.println("Método Selection Sort -> Entrada desordenada:");
+        System.out.println("Método Selection Sort -> Entrada desordenada:");
         tempoInicio = System.currentTimeMillis();
         memoriaAntes = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
         arrayOrdenada = AlgoritmosDate.ordenarPorSelection(arrayPorOrdem.clone());
@@ -44,7 +44,7 @@ public class OrdenacaoDate {
         memoriaTotal = Math.abs((memoriaDepois - memoriaAntes) / (1024 * 1024));
         System.out.println("Tempo: " + duracao + " ms");
         System.out.println("Uso de memória: " + memoriaTotal + " MB\n");
-        AlgoritmosDate.salvarCSV("games_release_date_insertionSort_medioCaso.csv", arrayOrdenada);*/
+        AlgoritmosDate.salvarCSV("games_release_date_insertionSort_medioCaso.csv", arrayOrdenada);
     
         // Merge Sort
         System.out.println("Método Merge Sort -> Entrada desordenada:");
