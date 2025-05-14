@@ -18,7 +18,7 @@ public class OrdenacaoPrice {
         System.out.println("Executando ordenações no campo Price (caso médio):\n");
 
         // Selection Sort
-        /*System.out.println("Método Selection Sort -> Entrada desordenada:");
+        System.out.println("Método Selection Sort -> Entrada desordenada:");
         tempoInicio = System.currentTimeMillis();
         memoriaAntes = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
         arrayOrdenada = AlgoritmosPrice.ordenarPorSelection(arrayPorOrdem.clone());
@@ -41,7 +41,7 @@ public class OrdenacaoPrice {
         memoriaTotal = Math.abs((memoriaDepois - memoriaAntes) / (1024 * 1024));
         System.out.println("Tempo: " + duracao + " ms");
         System.out.println("Uso de memória: " + memoriaTotal + " MB\n");
-        AlgoritmosPrice.salvarCSV("games_price_insertionSort_medioCaso.csv", arrayOrdenada);*/
+        AlgoritmosPrice.salvarCSV("games_price_insertionSort_medioCaso.csv", arrayOrdenada);
 
         // Merge Sort
         System.out.println("Método Merge sort -> Entrada desordenada:");
@@ -106,7 +106,7 @@ public class OrdenacaoPrice {
         System.out.println("Executando ordenações no campo Price (melhor caso - dados já ordenados):\n");
 
         // Selection Sort
-        /*System.out.println("Método Selection sort -> Entrada ordenada:");
+        System.out.println("Método Selection sort -> Entrada ordenada:");
         tempoInicio = System.currentTimeMillis();
         memoriaAntes = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
         arrayOrdenada = AlgoritmosPrice.ordenarPorSelection(arrayMelhorCaso.clone());
@@ -116,7 +116,7 @@ public class OrdenacaoPrice {
         memoriaTotal = Math.abs((memoriaDepois - memoriaAntes) / (1024 * 1024));
         System.out.println("Tempo: " + duracao + " ms");
         System.out.println("Uso de memória: " + memoriaTotal + " MB\n");
-        AlgoritmosPrice.salvarCSV("games_price_selectionSort_melhorCaso.csv", arrayOrdenada);*/
+        AlgoritmosPrice.salvarCSV("games_price_selectionSort_melhorCaso.csv", arrayOrdenada);
 
         // Insertion Sort
         System.out.println("Método Insertion sort -> Entrada ordenada:");
@@ -145,7 +145,7 @@ public class OrdenacaoPrice {
         AlgoritmosPrice.salvarCSV("games_price_mergeSort_melhorCaso.csv", arrayOrdenada);
 
         // Quick Sort
-        /*System.out.println("Método Quick sort -> Entrada ordenada:");
+        System.out.println("Método Quick sort -> Entrada ordenada:");
         tempoInicio = System.currentTimeMillis();
         memoriaAntes = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
         arrayOrdenada = AlgoritmosPrice.ordenarPorQuickSort(arrayMelhorCaso.clone(), 0, arrayMelhorCaso.length - 1);
@@ -155,7 +155,7 @@ public class OrdenacaoPrice {
         memoriaTotal = Math.abs((memoriaDepois - memoriaAntes) / (1024 * 1024));
         System.out.println("Tempo: " + duracao + " ms");
         System.out.println("Uso de memória: " + memoriaTotal + " MB\n");
-        AlgoritmosPrice.salvarCSV("games_price_quickSort_melhorCaso.csv", arrayOrdenada);*/
+        AlgoritmosPrice.salvarCSV("games_price_quickSort_melhorCaso.csv", arrayOrdenada);
 
         // Quick Sort com Mediana de 3
         System.out.println("Método Quick sort (Mediana de 3) -> Entrada ordenada:");
@@ -191,7 +191,7 @@ public class OrdenacaoPrice {
         System.out.println("\nExecutando ordenações no campo Price (pior caso - dados ordenados em ordem inversa):\n");
 
         // Selection Sort
-        /*System.out.println("Método Selection sort -> Entrada ordenada em ordem inversa:");
+        System.out.println("Método Selection sort -> Entrada ordenada em ordem inversa:");
         tempoInicio = System.currentTimeMillis();
         memoriaAntes = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
         arrayOrdenada = AlgoritmosPrice.ordenarPorSelection(arrayPiorCaso.clone());
@@ -201,7 +201,7 @@ public class OrdenacaoPrice {
         memoriaTotal = Math.abs((memoriaDepois - memoriaAntes) / (1024 * 1024));
         System.out.println("Tempo: " + duracao + " ms");
         System.out.println("Uso de memória: " + memoriaTotal + " MB\n");
-        AlgoritmosPrice.salvarCSV("games_price_selectionSort_piorCaso.csv", arrayOrdenada);*/
+        AlgoritmosPrice.salvarCSV("games_price_selectionSort_piorCaso.csv", arrayOrdenada);
 
         // Insertion Sort
         System.out.println("Método Insertion sort -> Entrada ordenada em ordem inversa:");
@@ -230,7 +230,7 @@ public class OrdenacaoPrice {
         AlgoritmosPrice.salvarCSV("games_price_mergeSort_piorCaso.csv", arrayOrdenada);
 
         // Quick Sort
-        /*System.out.println("Método Quick sort -> Entrada ordenada em ordem inversa:");
+        System.out.println("Método Quick sort -> Entrada ordenada em ordem inversa:");
         tempoInicio = System.currentTimeMillis();
         memoriaAntes = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
         arrayOrdenada = AlgoritmosPrice.ordenarPorQuickSort(arrayPiorCaso.clone(), 0, arrayPiorCaso.length - 1);
@@ -240,7 +240,7 @@ public class OrdenacaoPrice {
         memoriaTotal = Math.abs((memoriaDepois - memoriaAntes) / (1024 * 1024));
         System.out.println("Tempo: " + duracao + " ms");
         System.out.println("Uso de memória: " + memoriaTotal + " MB\n");
-        AlgoritmosPrice.salvarCSV("games_price_quickSort_piorCaso.csv", arrayOrdenada);*/
+        AlgoritmosPrice.salvarCSV("games_price_quickSort_piorCaso.csv", arrayOrdenada);
 
         // Quick Sort com Mediana de 3
         System.out.println("Método Quick sort (Mediana de 3) -> Entrada ordenada em ordem inversa:");
