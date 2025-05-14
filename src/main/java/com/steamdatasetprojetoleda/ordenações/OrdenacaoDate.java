@@ -107,7 +107,7 @@ public class OrdenacaoDate {
         System.out.println("Executando ordenações no campo Release Date (melhor caso - dados já ordenados):\n");
 
         // Selection Sort
-        /*System.out.println("Método Selection Sort -> Entrada ordenada:");
+        System.out.println("Método Selection Sort -> Entrada ordenada:");
         tempoInicio = System.currentTimeMillis();
         memoriaAntes = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
         arrayOrdenada = AlgoritmosDate.ordenarPorSelection(arrayMelhorCaso.clone());
@@ -117,7 +117,7 @@ public class OrdenacaoDate {
         memoriaTotal = Math.abs((memoriaDepois - memoriaAntes) / (1024 * 1024));
         System.out.println("Tempo: " + duracao + " ms");
         System.out.println("Uso de memória: " + memoriaTotal + " MB\n");
-        AlgoritmosDate.salvarCSV("games_release_date_selectionSort_melhorCaso.csv", arrayOrdenada);*/
+        AlgoritmosDate.salvarCSV("games_release_date_selectionSort_melhorCaso.csv", arrayOrdenada);
 
         // Insertion Sort
         System.out.println("Método Insertion Sort -> Entrada ordenada:");
@@ -146,7 +146,7 @@ public class OrdenacaoDate {
         AlgoritmosDate.salvarCSV("games_release_date_mergeSort_melhorCaso.csv", arrayOrdenada);
 
         // Quick Sort
-        /*System.out.println("Método Quick Sort -> Entrada ordenada:");
+        System.out.println("Método Quick Sort -> Entrada ordenada:");
         tempoInicio = System.currentTimeMillis();
         memoriaAntes = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
         arrayOrdenada = AlgoritmosDate.ordenarPorQuickSort(arrayMelhorCaso.clone(), 0, arrayMelhorCaso.length - 1);
@@ -156,7 +156,7 @@ public class OrdenacaoDate {
         memoriaTotal = Math.abs((memoriaDepois - memoriaAntes) / (1024 * 1024));
         System.out.println("Tempo: " + duracao + " ms");
         System.out.println("Uso de memória: " + memoriaTotal + " MB\n");
-        AlgoritmosDate.salvarCSV("games_release_date_quickSort_melhorCaso.csv", arrayOrdenada); */
+        AlgoritmosDate.salvarCSV("games_release_date_quickSort_melhorCaso.csv", arrayOrdenada); 
 
         // Quick Sort com Mediana de 3
         System.out.println("Método Quick Sort (Mediana de 3) -> Entrada ordenada:");
@@ -190,7 +190,7 @@ public class OrdenacaoDate {
         System.out.println("\nExecutando ordenações no campo Release Date (pior caso - dados ordenados em ordem inversa):\n");
 
         // Selection Sort
-        /*System.out.println("Método Selection Sort -> Entrada ordenada em ordem inversa:");
+        System.out.println("Método Selection Sort -> Entrada ordenada em ordem inversa:");
         tempoInicio = System.currentTimeMillis();
         memoriaAntes = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
         arrayOrdenada = AlgoritmosDate.ordenarPorSelection(arrayPiorCaso.clone());
@@ -229,7 +229,7 @@ public class OrdenacaoDate {
         AlgoritmosDate.salvarCSV("games_release_date_mergeSort_piorCaso.csv", arrayOrdenada);
 
         // Quick Sort
-        /*System.out.println("Método Quick Sort -> Entrada ordenada em ordem inversa:");
+        System.out.println("Método Quick Sort -> Entrada ordenada em ordem inversa:");
         tempoInicio = System.currentTimeMillis();
         memoriaAntes = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
         arrayOrdenada = AlgoritmosDate.ordenarPorQuickSort(arrayPiorCaso.clone(), 0, arrayPiorCaso.length - 1);
@@ -239,7 +239,7 @@ public class OrdenacaoDate {
         memoriaTotal = Math.abs((memoriaDepois - memoriaAntes) / (1024 * 1024));
         System.out.println("Tempo: " + duracao + " ms");
         System.out.println("Uso de memória: " + memoriaTotal + " MB\n");
-        AlgoritmosDate.salvarCSV("games_release_date_quickSort_piorCaso.csv", arrayOrdenada);*/
+        AlgoritmosDate.salvarCSV("games_release_date_quickSort_piorCaso.csv", arrayOrdenada);
 
         // Quick Sort com Mediana de 3
         System.out.println("Método Quick Sort (Mediana de 3) -> Entrada ordenada em ordem inversa:");
