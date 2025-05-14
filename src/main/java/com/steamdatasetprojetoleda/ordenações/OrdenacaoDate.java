@@ -213,7 +213,7 @@ public class OrdenacaoDate {
         memoriaTotal = Math.abs((memoriaDepois - memoriaAntes) / (1024 * 1024));
         System.out.println("Tempo: " + duracao + " ms");
         System.out.println("Uso de memória: " + memoriaTotal + " MB\n");
-        AlgoritmosDate.salvarCSV("games_release_date_insertionSort_piorCaso.csv", arrayOrdenada);*/
+        AlgoritmosDate.salvarCSV("games_release_date_insertionSort_piorCaso.csv", arrayOrdenada);
 
         // Merge Sort
         System.out.println("Método Merge Sort -> Entrada ordenada em ordem inversa:");
