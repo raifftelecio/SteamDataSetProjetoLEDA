@@ -6,7 +6,7 @@
 -Segunda parte do projeto: aplicação dos algoritmos de ordenações em determinados campos e relatório com análise de resultados.
 
 -------------------------------------------------------------------------------------------
-Para que o código seja executado da maneira correta, **SIGA AS INSTRUÇÕES:**
+Para que o código seja executado da maneira correta, **SIGA AS INSTRUÇÕES:** 
 -------------------------------------------------------------------------------------------
 
 --> **Pré-Requisitos:**
